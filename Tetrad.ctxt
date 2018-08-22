@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=grid\ locs
+comment0.target=void\ addToLocations(MyBoundedGrid,\ Location[])
+comment0.text=\n\ Adds\ the\ blocks\ to\ the\ grid\ and\ the\ respective\ locations\n\ \n\ @param\ grid\ \ the\ grid\ of\ the\ tetris\ game\n\ @param\ locs\ \ an\ array\ of\ locations\n
+comment1.params=grid
+comment1.target=Tetrad(MyBoundedGrid)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Tetrad\n\ \n\ @param\ grid\ \ the\ grid\ of\ the\ tetris\ game\n
+comment2.params=
+comment2.target=Location[]\ removeBlock()
+comment2.text=\n\ Removes\ the\ blocks\n\ \n\ @return\ \ the\ four\ previous\ locations\ of\ the\ blocks\n
+comment3.params=gr\ locs
+comment3.target=boolean\ areEmpty(MyBoundedGrid,\ Location[])
+comment3.text=\n\ Determines\ whether\ or\ not\ a\ set\ of\ given\ locations\ are\ empty.\n\ \n\ @param\ gr\ the\ grid\ in\ which\ to\ use\ to\ determine\ if\ the\ blocks\ are\ empty\ or\ not\n\ @param\ locs\ the\ location\ array\ from\ which\ to\ check\ if\ empty\ or\ not.\n\ \n\ @return\ true\ if\ all\ the\ positions\ are\ null\ \n\ \ \ \ \ \ \ \ \ otherwise\ false\n
+comment4.params=deltaRow\ deltaCol
+comment4.target=boolean\ translate(int,\ int)
+comment4.text=\n\ Moves\ the\ blocks\ from\ their\ current\ position\ incremented\ by\ \n\ deltaRow\ and\ deltaCol\n\ \n\ @param\ deltaRow\ is\ the\ amount\ of\ rows\ to\ translate\n\ @param\ deltaCol\ \ is\ the\ amount\ of\ columns\ to\ translate\n\ \n\ @return\ true\ if\ the\ tetrad\ rotates\ \n\ \ \ \ \ \ \ \ \ otherwise\ fales\n
+comment5.params=
+comment5.target=boolean\ rotate()
+comment5.text=\n\ Rotates\ the\ tetrad\ 90\ degrees\ clockwise\ on\ the\ pivot\ point\ block[0].\n\ \n\ @return\ true\ if\ the\ tetrad\ can\ rotate\ and\ rotates\ \n\ \ \ \ \ \ \ \ \ otherwise\ return\ false\n\ \n
+numComments=6
